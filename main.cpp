@@ -29,17 +29,14 @@ std::vector<std::string> getFiles() {
 int main(int argc, char *argv[]) {
     std::vector<std::string> fileNames = getFiles();
     if (argc > 1) {
-        ///////////////////////////////////////////////////////////////////////////
         int threads = atoi(argv[1]);
         boost::asio::thread_pool pool(threads);
-        ///////////////////////////////////////////////////////////////////////////
 
-        //************************************************************************
         for (auto inputFile : fileNames) {
             boost::asio::post(pool, std::bind(parse, inputFile, inputFile + ".report"));
         }
-        //************************************************************************
-        pool.join();
+       
+       	pool.join();
     } else {
 
         for (auto i : fileNames) {
