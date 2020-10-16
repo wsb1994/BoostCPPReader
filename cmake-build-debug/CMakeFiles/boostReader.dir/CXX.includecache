@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/willofhouse/CLionProjects/untitled/Book.cpp
+Book.h
+/home/willofhouse/CLionProjects/untitled/Book.h
+iomanip
+-
+unordered_map
+-
+
+/home/willofhouse/CLionProjects/untitled/Book.h
+iostream
+-
+fstream
+-
+string
+-
+regex
+-
+regex.h
+-
+vector
+-
+unordered_set
+-
+

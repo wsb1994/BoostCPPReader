@@ -1,0 +1,5 @@
+newline             :  1         
+chungus             :  2         
+thungus             :  1         
+chungus2            :  1         
+wungus              :  1         

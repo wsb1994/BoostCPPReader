@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -Wall -Wextra -g   CMakeFiles/boostReader.dir/main.cpp.o CMakeFiles/boostReader.dir/Book.cpp.o  -o boostReader  /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 -lpthread 
