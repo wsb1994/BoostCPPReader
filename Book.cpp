@@ -72,7 +72,7 @@ void Book::generateReport() {
 
 }
 
-#expensive, probably don't need to do that.
+//expensive, probably don't need to do that.
 void Book::cacheInsert(std::vector<std::string> text) {
     auto cache = this->cache;
     std::for_each(std::begin(text), std::end(text), [&cache](std::string c) {
